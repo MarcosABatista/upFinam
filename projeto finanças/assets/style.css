@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+/* nav */
+#navegacao {
+  display: flex;
+  justify-content: space-between;
+}
+#navleft {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  justify-content: space-around;
+  width: 60%;
+}
+#logo {
+  margin-left: 2rem;
+}
+#nav a {
+  color: #4c5958;
+}
+#list {
+  display: flex;
+}
+.navlink {
+  list-style-type: none;
+  margin: 0 0 0 1rem;
+}
+#navright {
+  display: flex;
+  align-items: center;
+}
+#login {
+  margin-right: 3rem;
+  padding: 5px 15px;
+  border-radius: 2px;
+  color: aliceblue;
+  background-color: dimgray;
+}
+/* corpo */
+#corpo1 {
+  display: flex;
+}
+#corpoleft {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+#smalltext {
+  color: #04d939;
+}
+#title {
+  font-size: 3rem;
+  margin: 10px 0;
+  letter-spacing: 2px;
+}
+.text {
+  color: #4c5958;
+  margin-bottom: 5rem;
+}
+#ca {
+  padding: 1rem 1.5rem;
+  background-color: #04d939;
+  color: aliceblue;
+  border-radius: 3px;
+}
+#sm {
+  padding: 1rem 1.5rem;
+  margin-left: 0.5rem;
+  background-color: #bfbfbf;
+  color: #4c5958;
+  border-radius: 3px;
+}
+#corporight {
+  background-image: url(images/annie-spratt-MChSQHxGZrQ-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 40%;
+  height: 100vh;
+  display: flex;
+}
+#icon {
+  width: 5rem;
+  position: absolute;
+  align-self: center;
+  margin-left: -2.4rem;
+  transform: rotate(-30deg);
+}
+#rodape {
+  align-self: flex-end;
+  height: 8rem;
+  width: 100%;
+  background-color: rgba(78, 71, 71, 0.24);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
